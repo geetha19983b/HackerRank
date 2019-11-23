@@ -10,7 +10,7 @@ namespace HackerRank
         {
             Console.WriteLine("Enter the time in HH:MM:SSAM/PM");
             string s = Console.ReadLine();
-
+              
             string amOrpm = s.Substring(8, 2);
             var hour = s.Substring(0, 2);
             var remaining = s.Substring(2, 6);
