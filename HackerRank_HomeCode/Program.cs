@@ -6,8 +6,11 @@ namespace HackerRank_HomeCode
     {
         static void Main(string[] args)
         {
-            FairRations fr = new FairRations();
-            fr.findBreadLoves();
+            //ClimbingLeaderboard cl = new ClimbingLeaderboard();
+            //cl.GetOptimizedAliceRanK();
+
+            MaximumSumSubarray mx = new MaximumSumSubarray();
+            mx.getMaxSumOfsubarray();
         }
     }
 }
