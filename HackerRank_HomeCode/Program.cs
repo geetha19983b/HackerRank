@@ -6,11 +6,8 @@ namespace HackerRank_HomeCode
     {
         static void Main(string[] args)
         {
-            //ClimbingLeaderboard cl = new ClimbingLeaderboard();
-            //cl.GetOptimizedAliceRanK();
-
-            MaximumSumSubarray mx = new MaximumSumSubarray();
-            mx.getMaxSumOfsubarray();
+            JimandOrders jo = new JimandOrders();
+            jo.DisplayTheOrderDelivery();
         }
     }
 }
