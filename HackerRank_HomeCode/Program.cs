@@ -6,8 +6,8 @@ namespace HackerRank_HomeCode
     {
         static void Main(string[] args)
         {
-            JimandOrders jo = new JimandOrders();
-            jo.DisplayTheOrderDelivery();
+            DP_PaintHouse ph = new DP_PaintHouse();
+            ph.MinCostToPaintHouse();
         }
     }
 }
